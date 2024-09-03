@@ -24,13 +24,14 @@ begin
   else
     ShowMessage('Image not found.');
 end;
+```
 
-### Parameters
+## Parameters
 
 - **sSubImageFile**: Path to the PNG or BMP image file to search for.
 - **aWndHandle**: Handle of the window where the screenshot will be captured. Use `GetDesktopWindow` to capture the entire screen.
 
-### Return Value
+## Return Value
 
 - The function returns a `TPoint` structure:
   - `X`: The X-coordinate of the top-left corner where the image was found.
